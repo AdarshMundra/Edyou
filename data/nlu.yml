@@ -41,6 +41,12 @@ nlu:
     - yo
     - hmmm
 
+- intent: Thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - ok 
+
 
 - intent: deny
   examples: |
@@ -365,9 +371,9 @@ nlu:
 
 - intent: Whatisacuteliverfailure
   examples: |
-    - What is extramedullary hematopoeisis?
-    - Explain extramedullary hematopoeisis?
-    - Define extramedullary hematopoeisis?
+    - What is acute liver failure?
+    - Explain acute liver failure?
+    - Define acute liver failure?
 
 - intent: Dont_know
   examples: |

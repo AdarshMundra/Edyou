@@ -106,6 +106,10 @@ stories:
   - intent: Topic_Anemia
   - action: utter_Topic_Anemia
 
+- story: Thanks
+  steps:
+  - intent: Thanks
+  - action: utter_Thanks
 
 
 - story: Greatings
