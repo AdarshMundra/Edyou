@@ -23,7 +23,7 @@ intents:
   - WhatisadirectCoombstest
   - Whatisbluelightphototherapy
   - Whatisthesignificanceofdarkurine
-
+  - Whatisacuteliverfailure
 
 
 responses:
@@ -51,7 +51,7 @@ responses:
   - text: "1) Resume the previous one. 2) Start a new one."
 
   utter_Whatisedyou:
-  - text: edYOU provides a proprietary AI-driven digital learning solution that is interactive in real time not just recorded. edYOU is a safe, neutral and effective harvest of AI driven personalities to help alleviate disparities in education and improve learning outcomes. edYOU has an emphasis on Web3 technology, for motivated people and institutions in an inclusive environment with an encouraging voice helping them feel accomplished, rewarded and pleasantly surprised.
+  - text: e-dee-YOU provides a proprietary AI-driven digital learning solution that is interactive in real time not just recorded. e-dee-YOU is a safe, neutral and effective harvest of AI driven personalities to help alleviate disparities in education and improve learning outcomes. e-dee-YOU has an emphasis on Web3 technology, for motivated people and institutions in an inclusive environment with an encouraging voice helping them feel accomplished, rewarded and pleasantly surprised.
 
   utter_Howwilledyouhelpme:
   - text: The arrival of AI is transforming the world of education. With e-dee-YOU you get to leverage the latest in edutech to learn for exams, jobs or passion. I will be like a personal tutor for you, available anytime, helping you learn and grow using my AI capabilities.
@@ -60,10 +60,10 @@ responses:
   - text: We provide a variety of educational courses in multiple domains including Medical, Engineering, Law etc. In Medical we provide a United States Medical Licensing Examination career track where we prepare you to succeed in the United States Medical Licensing Examination.
 
   utter_Whichlanguagesdoesedyousupport:
-  - text: Currently we support English language with a plan to support Spanish, Russian, Hindi, Italian, among others.
+  - text: Currently we support the English language with a plan to support Spanish, Russian, Hindi, Italian, among others.
 
   utter_WhencanIlearn:
-  - text: I am available for you any time of the day or week to learn unlike the regular classes.
+  - text: I am available for you any time of the day or week to learn, unlike the regular classes.
 
   utter_Whatisthevisionofcompany:
   - text: Our vision is to redefine education for generations to come by creating the world's most immersive and adaptive AI learning experiences.
@@ -75,7 +75,7 @@ responses:
   - text: MCV stands for mean corpuscular volume, which is a determination of the size of a RBC. Normal MCV is between 80 to 100 femtoliter. Microcytic is when MCV is less than 80 femtoliter. Macrocytic is when MCV is greater than 100 femtoliter.
   
   utter_Whatistotalironbindingcapacity:
-  - text: This is a determination of the amount of transferrin in the blood at the time of the test. Transferrin is the protein that binds to and transports iron through to blood to the destination tissues or organs. Transferrin is elevated in conditions where iron stores in the body are low and depressed in conditions where iron stores in the body are high. Body regulates transferrin levels based on the demand for iron.
+  - text: Total iron binding capacity is a determination of the amount of transferrin in the blood at the time of the test. Transferrin is the protein that binds to and transports iron through to blood to the destination tissues or organs. Transferrin is elevated in conditions where iron stores in the body are low and depressed in conditions where iron stores in the body are high. Body regulates transferrin levels based on the demand for iron.
   
   utter_Whatisanupperendoscopy:
   - text: An upper endoscopy is a scope that is inserted into the patient’s upper GI tract (proximal to the 2nd part of the duodenum) to look for issues with the esophagus, stomach, and proximal duodenum. This is an invasive study that should be performed after lab studies are completed (only time this is done urgently is if the condition is life-threatening).
@@ -84,16 +84,16 @@ responses:
   - text:  A spherocyte is a red blood cell that has less “central pallor” than a typical RBC. Key thing to note is that both spherocyte and normal RBCs are round. Reason for this is that a spherocyte has mutations in membrane proteins which cause it to have less overall surface area. This creates an imbalance between the amount of hemoglobin within the cell and the surrounding membrane (since the hemoglobin is a red color when attached to oxygen, this creates a darker appearance to the cell).
 
   utter_WhatisadirectCoombstest:
-  - text: This process begins with taking a blood sample from a patient with an autoimmune hemolytic anemia and exposing this blood to a “Coombs reagent” which binds to human antibodies. Since an autoimmune hemolytic anemia has antibodies bound to RBC surfaces, the Coombs reagent will bind to this surface-bound antibodies. This binding of the Coombs reagent will create clumping, which is seen in the blood sample and indicates a positive test (presence of autoimmune antibodies to RBCs).
+  - text: Direct Coombs test begins with taking a blood sample from a patient with an autoimmune hemolytic anemia and exposing this blood to a “Coombs reagent” which binds to human antibodies. Since an autoimmune hemolytic anemia has antibodies bound to RBC surfaces, the Coombs reagent will bind to this surface-bound antibodies. This binding of the Coombs reagent will create clumping, which is seen in the blood sample and indicates a positive test (presence of autoimmune antibodies to RBCs).
 
   utter_Whatisbluelightphototherapy:
-  - text: This is a type of light therapy that involves shining fluorescent light onto bare skin. Certain wavelengths of light can penetrate the skin and convert the bilirubin into a water-soluble form. This helps the newborn handle the excessive load of unconjugated bilirubin and prevents neurological complications such as kernicterus (damage to the brain).
+  - text:  Blue light phototherapy is a type of light therapy that involves shining fluorescent light onto bare skin. Certain wavelengths of light can penetrate the skin and convert the bilirubin into a water-soluble form. This helps the newborn handle the excessive load of unconjugated bilirubin and prevents neurological complications such as kernicterus (damage to the brain).
   
   utter_Whatisthesignificanceofdarkurine:
   - text:  "Dark urine is an indication of unusual waste products being excreted from the body; possible causes include: Buildup of water-soluble conjugated bilirubin in the blood (due to bile duct failure or failure to excrete bile). Release of hemoglobin into the urine via the kidney due to intravascular hemolysis and glomerular filtration of free hemoglobin. Muscle breakdown and release of myoglobin into the urine."
  
   utter_Whatisacuteliverfailure:
-  - text: Sudden onset and severe damage to the liver, resulting in failure of its productive functions. It's most commonly caused by a hepatitis virus, toxin or drugs. Signs that indicate liver failure include prolonged coagulation times (due to liver being the site of synthesis of coagulation proteins), low albumin levels, and symptoms of encephalopathy (mental status changes, neurologic issues) 
+  - text: Acute liver failure is a sudden onset and severe damage to the liver, resulting in failure of its productive functions. It's most commonly caused by a hepatitis virus, toxin or drugs. Signs that indicate liver failure include prolonged coagulation times (due to liver being the site of synthesis of coagulation proteins), low albumin levels, and symptoms of encephalopathy (mental status changes, neurologic issues) 
 
   utter_Topic_Anemia:
   - text: Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak.

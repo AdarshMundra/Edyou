@@ -45,7 +45,6 @@ nlu:
   examples: |
     - Thanks
     - Thank you
-    - ok 
 
 
 - intent: deny
@@ -314,7 +313,9 @@ nlu:
     - What is the vision of edyou?
     - Vision of edyou?
     - What the edyou vision is?
-
+    - What is the vision of edu?
+    - Vision of edu?
+    - What the edu vision is?
 - intent: Howwilledyouhelpme
   examples: |
     - How will edyou help me?
@@ -343,12 +344,17 @@ nlu:
     - What is an upper endoscopy?
     - Explain is an upper endoscopy?
     - Define an upper endoscopy?
+    - upper endoscopy?
 
 - intent: Whatisaspherocyte
   examples: |
     - What is a spherocyte?
     - Explain is a spherocyte?
     - Define spherocyte?
+    - spherocyte?
+    - What is parasite?
+    - parasite?
+
 
 - intent: WhatisadirectCoombstest
   examples: |
@@ -361,19 +367,21 @@ nlu:
     - What is blue light phototherapy?
     - explain  blue light phototherapy?
     - Define  blue light phototherapy?
+    - blue light phototherapy?
 
 - intent: Whatisthesignificanceofdarkurine
   examples: |
     - What is the significance of dark urine?
     - Explain the significance of dark urine?
     - Define the significance of dark urine?
-
+    - Dark urine?
 
 - intent: Whatisacuteliverfailure
   examples: |
     - What is acute liver failure?
     - Explain acute liver failure?
     - Define acute liver failure?
+    - acute liver failure?
 
 - intent: Dont_know
   examples: |
