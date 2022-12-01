@@ -111,6 +111,10 @@ stories:
   - intent: Thanks
   - action: utter_Thanks
 
+- story: Howareyou
+  steps:
+  - intent: Howareyou
+  - action: utter_Howareyou
 
 - story: Greatings
   steps:
