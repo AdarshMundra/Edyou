@@ -82,6 +82,12 @@ nlu:
     - How are you doing?
     - What's up?
   
+- intent: Whataretheproblemsintheeducationindustrytoday
+  examples: |
+    - What are the problems in the education industry today?
+    - Education industry problems today?
+    - problems in the education industry today?
+
 
 
 - intent: mood_unhappy
