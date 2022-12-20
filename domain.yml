@@ -9,6 +9,11 @@ intents:
   - mood_great
   - mood_unhappy
   - Whatisedyou
+  - OptionsA
+  - OptionsB
+  - OptionsC
+  - OptionsD
+  - OptionsE
   - Whichlanguagesdoesedyousupport
   - Whatcareertracksdoesedyouprovide
   - Howwilledyouhelpme
@@ -53,6 +58,21 @@ responses:
   - text: "Shall we resume the previous topics or start a new one. Or you can choose from other options too"
   utter_TestOptions:
   - text: "1) Resume the previous one. 2) Start a new one."
+
+  utter_A:
+  - text: "0"
+
+  utter_B:
+  - text: "1"
+
+  utter_C:
+  - text: "2"
+
+  utter_D:
+  - text: "3"
+
+  utter_E:
+  - text: "4"
 
   utter_Whatisedyou:
   - text: e-dee-YOU provides a proprietary AI-driven digital learning solution that is interactive in real time not just recorded. e-dee-YOU is a safe, neutral and effective harvest of AI driven personalities to help alleviate disparities in education and improve learning outcomes. e-dee-YOU has an emphasis on Web3 technology, for motivated people and institutions in an inclusive environment with an encouraging voice helping them feel accomplished, rewarded and pleasantly surprised.
