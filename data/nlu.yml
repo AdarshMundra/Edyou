@@ -30,16 +30,19 @@ nlu:
     - bye bye
     - see you later
 
-- intent: affirm
+- intent: ok
   examples: |
+    - ok
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-    - yo
-    - hmmm
+    - next
+    - move to the next question
+    - please move
+    - the next question
+    - next question please
+    - next please
+    - move next
+    - show me next question
+
 
 - intent: Thanks
   examples: |
@@ -88,7 +91,17 @@ nlu:
     - Education industry problems today?
     - problems in the education industry today?
 
-
+- intent: repeat
+  examples: |
+    - repeat
+    - Can you please repeat
+    - Can you please repeat the question
+    - sorry can you please repeat
+    - please repeat the question
+    - please speak the question
+    - tell the question again
+    - repeat the question
+    - show the question
 
 - intent: mood_unhappy
   examples: |

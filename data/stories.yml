@@ -7,6 +7,17 @@ stories:
   - intent: greet
   - action: utter_greet
 
+- story: repeat
+  steps:
+  - intent: repeat
+  - action: utter_repeat
+
+- story: ok
+  steps:
+  - intent: ok
+  - action: utter_ok
+ 
+
 - story: option A
   steps:
   - intent: OptionsA
