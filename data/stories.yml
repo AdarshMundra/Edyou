@@ -16,7 +16,11 @@ stories:
   steps:
   - intent: ok
   - action: utter_ok
- 
+
+- story: Stop
+  steps:
+  - intent: Stop
+  - action: utter_Stop 
 
 - story: option A
   steps:

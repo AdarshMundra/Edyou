@@ -32,6 +32,7 @@ intents:
   - Whatisbluelightphototherapy
   - Whatisthesignificanceofdarkurine
   - Whatisacuteliverfailure
+  - Stop
 
 
 responses:
@@ -130,8 +131,11 @@ responses:
   utter_Whataretheproblemsintheeducationindustrytoday:
   - text: 54% of american adults read at the sixth-grade level. 40% of GLOBAL EMPLOYERS CAN NOT RECRUIT WORKERS WITH THE SKILLS THEY NEED. By 2050, the number of lives lost each year would equal to HIV and malaria because of the failure to provide adequate access to quality education. SCHOOLS ACROSS THE UNITED STATES ARE facing a shortage of 300,000 teachers and staff. e-dee-YOU provides a solution to these problems by enabling teachers, school administrators, companies and most important learners with individualized, smart AI education technology that helps people quickly learn and improve their lives.
   
+  utter_Stop:
+  - text: stop
+
   utter_default:
-  - text: "Sorry I don't know the answer."
+  - text: "Sorry, I don’t understand. Can you please ask again?"
 
   # utter_info:
   # - text: "nothing"

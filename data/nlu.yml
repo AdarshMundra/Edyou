@@ -42,6 +42,18 @@ nlu:
     - next please
     - move next
     - show me next question
+    - ya
+    - sure
+    - yes next
+
+- intent: Stop
+  examples: |
+    - Let’s stop the test series.
+    - Let’s finish the test series.
+    - stop the test
+    - stop
+    - finish the test
+    - finish
 
 
 - intent: Thanks
