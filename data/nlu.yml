@@ -155,12 +155,7 @@ nlu:
     - Choose A
     - A
     - The correct Answer is A
-    - the first one
-    - 1
-    - one is correct
     - Option A
-    - Option 1
-    - one
     - The answer is option A
 
 - intent: OptionsB
@@ -169,11 +164,7 @@ nlu:
     - B is correct
     - Choose B
     - B
-    - Option 2
     - The correct Answer is B
-    - the second one
-    - 2
-    - two is correct
     - Option B
     - Two
     - The answer is option B
@@ -184,13 +175,8 @@ nlu:
     - C is correct
     - Choose C
     - C
-    - Option 3
     - The correct Answer is C
-    - the third one
-    - 3
-    - three is correct
     - Option C
-    - Three
     - The answer is option C
 
 - intent: OptionsD
@@ -199,13 +185,8 @@ nlu:
     - D is correct
     - Choose D
     - D
-    - Option 4
     - The correct Answer is D
-    - the forth one
-    - 4
-    - FOUR is correct
     - Option D
-    - Four
     - The answer is option D
 
 - intent: OptionsE
@@ -215,12 +196,7 @@ nlu:
     - Choose E
     - E
     - The correct Answer is E
-    - the fifth one
-    - 5
-    - Five is correct 
     - Option E
-    - Option 5
-    - Five
     - The answer is option E
 
 
@@ -485,19 +461,163 @@ nlu:
     - Do you understand acute liver failure?
 
 
-- intent: Dont_know
+# - intent: Dont_know
+#   examples: |
+#     - Do you know the answer
+#     - What is the possible Solution
+#     - what is the solution
+#     - have a possible solutions
+#     - anything to help
+#     - whats up
+#     - Can you tell me   
+
+
+- intent: Opentestseries
   examples: |
-    - Do you know the answer
-    - What is the possible Solution
-    - what is the solution
-    - have a possible solutions
-    - anything to help
-    - whats up
-    - Can you tell me   
+    - Start the test series.
+    - Can you launch the test series, please.
+    - Let's begin the test series.
+    - I'm ready to start test open the test series.
+    - I'd like to start the test series.
+    - please start the test series
+    - Kindly start the test
+    - Kindly start test
+    - Open the test series page
+    - Open test series
+    - go to test series
+    - Start the test
+    - Initiate test
+    - test series
+    - text series
+    - I would like you to start the test
+    - Go to the test series page
+    - Move to test series
+    - Take me to the test series
 
+- intent: Openthedashboard
+  examples: |
+    - Open the dashboard 
+    - Show me the dashboard 
+    - Please open the dashboard for me.
+    - Please take me to the dashboard screen 
+    - Please display the dashboard 
+    - Go to the dashboard
+    - Please go to the dashboard
+    - Take me to the dashboard
+    - open dashboard
 
+- intent: Openmyprofile
+  examples: |
+    - Go to the profile page
+    - Please go to the profile
+    - Take me to the profile page
+    - Open my profile 
+    - Can you please open my profile 
+    - Please open my profile.
+    - Can you please direct me to  my profile
+    - Can you display my profile
+    - open profile
 
+- intent: Pleasehideyourself
+  examples: |
+    - Please hide yourself
+    - Kindly hide
+    - Please go to background
+    - Please hide.
+    - Be invisible.
+    - Take off yourself 
+    - Conceal yourself
+    - hide avatar
 
+- intent: Showyourself
+  examples: |
+    - Please unhide yourself
+    - Kindly unhide
+    - Please go to background
+    - Let me see you
+    - I can't see you
+    - Please display yourself 
+    - Be visible to us / screen 
+    - Please show yourself to me.
+    - Show yourself.
+    - unhide avatar
+
+- intent: Displayfullscreen
+  examples: |
+    - Display fullscreen
+    - Maximize screen 
+    - On the full-screen mode 
+    - Cover the complete screen 
+    - Make yourself full screen
+    - Please expand yourself
+    - expand yourself
+    - Show full screen
+
+- intent: Reducethescreen
+  examples: |
+    - Please make yourself small screen
+    - Go to the corner
+    - Minimize the screen 
+    - Collapse your screen 
+    - Reduce the screen 
+    - Show small screen
+
+- intent: showinfobox
+  examples: |
+    - Open the info box
+    - show info box
+    - display info box
+    - Enable info box 
+    - Please make the info box visible
+- intent: Hideinfobox
+  examples: |
+    - Close info box
+    - Hide the info box
+    - Close info
+    - Disable info box 
+    - Please hide the information box 
+    - Hide info box
+
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
+# - intent:
+#   examples: |
 # - intent: moreinfo
   # examples: |
   #   - want to know more

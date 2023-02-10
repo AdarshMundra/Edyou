@@ -156,6 +156,50 @@ stories:
   - intent: Howareyou
   - action: utter_Howareyou
 
+- story: Showyourself
+  steps:
+  - intent: Showyourself
+  - action: utter_Showyourself
+
+- story: Pleasehideyourself
+  steps:
+  - intent: Pleasehideyourself
+  - action: utter_Pleasehideyourself
+
+- story: Openmyprofile
+  steps:
+  - intent: Openmyprofile
+  - action: utter_Openmyprofile
+
+- story: Openthedashboard
+  steps:
+  - intent: Openthedashboard
+  - action: utter_Openthedashboard
+
+- story: Opentestseries
+  steps:
+  - intent: Opentestseries
+  - action: utter_Opentestseries
+
+- story: Displayfullscreen
+  steps:
+  - intent: Displayfullscreen
+  - action: utter_Displayfullscreen
+
+- story: Reducethescreen
+  steps:
+  - intent: Reducethescreen
+  - action: utter_Reducethescreen
+
+- story: showinfobox
+  steps:
+  - intent: showinfobox
+  - action: utter_showinfobox
+
+- story: Hideinfobox
+  steps:
+  - intent: Hideinfobox
+  - action: utter_Hideinfobox
 
 - story: Whataretheproblemsintheeducationindustrytoday
   steps:

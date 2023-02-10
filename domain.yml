@@ -8,6 +8,7 @@ intents:
   - deny
   - repeat
   - ok
+  - Howareyou
   - mood_great
   - mood_unhappy
   - Whatisedyou
@@ -33,11 +34,48 @@ intents:
   - Whatisthesignificanceofdarkurine
   - Whatisacuteliverfailure
   - Stop
+  - Opentestseries
+  - Openthedashboard
+  - Openmyprofile
+  - Pleasehideyourself
+  - Showyourself
+  - Displayfullscreen
+  - Reducethescreen
+  - showinfobox
+  - Hideinfobox
+
+
 
 
 responses:
   utter_greet:
   - text: "Hi, my name is Hannah. How are you?"
+
+  utter_Opentestseries:
+  - text: Sure, opening the test series.
+
+  utter_Openthedashboard:
+  - text: Opening the dashboard.
+  utter_Openmyprofile:
+  - text: Ok, going to the profile page.
+  utter_Pleasehideyourself:
+  - text: Sure, hiding myself.
+  utter_Showyourself:
+  - text: Here I am.
+
+  utter_Displayfullscreen:
+  - text: Turning to full screen mode.
+
+  utter_Reducethescreen:
+  - text: Changing to smaller view
+
+  utter_showinfobox:
+  - text: Here is the info box
+
+  utter_Hideinfobox:
+  - text: Hiding the info box
+
+
 
   utter_repeat:
   - text: "repeat"
@@ -121,7 +159,7 @@ responses:
   
   utter_Whatisthesignificanceofdarkurine:
   - text: <ul><li>Dark urine is an indication of unusual waste products being excreted from the body, possible causes include.</li><ul><li>Buildup of water-soluble conjugated bilirubin in the blood (due to bile duct failure or failure to excrete bile).</li></ul><ul><li>Release of hemoglobin into the urine via the kidney due to intravascular hemolysis and glomerular filtration of free Hb.</li></ul><ul><li>Muscle breakdown and release of myoglobin into the urine.</li></ul>
- 
+
   utter_Whatisacuteliverfailure:
   - text: <ul><li>Sudden onset and severe damage to the liver, resulting in failure of its productive functions.</li><li>Can be due to viral hepatitis, toxins, or drugs.</li><li>Signs that indicate liver failure include prolonged coagulation times (due to liver being the site of synthesis of coagulation proteins), low albumin levels, and symptoms of encephalopathy (mental status changes, neurologic issues).</li></ul> 
 
@@ -130,12 +168,12 @@ responses:
 
   utter_Whataretheproblemsintheeducationindustrytoday:
   - text: 54% of american adults read at the sixth-grade level. 40% of GLOBAL EMPLOYERS CAN NOT RECRUIT WORKERS WITH THE SKILLS THEY NEED. By 2050, the number of lives lost each year would equal to HIV and malaria because of the failure to provide adequate access to quality education. SCHOOLS ACROSS THE UNITED STATES ARE facing a shortage of 300,000 teachers and staff. e-dee-YOU provides a solution to these problems by enabling teachers, school administrators, companies and most important learners with individualized, smart AI education technology that helps people quickly learn and improve their lives.
-  
+
   utter_Stop:
   - text: stop
 
-  utter_default:
-  - text: "Sorry, I don’t understand. Can you please ask again?"
+  # utter_default:
+  # - text: "Sorry, I don’t understand. Can you please ask again?"
 
   # utter_info:
   # - text: "nothing"
