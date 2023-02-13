@@ -45,6 +45,7 @@ nlu:
     - ya
     - sure
     - yes next
+    - okay
 
 - intent: Stop
   examples: |
@@ -578,20 +579,68 @@ nlu:
     - Please hide the information box 
     - Hide info box
 
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
-# - intent:
-#   examples: |
+
+
+- intent: Showusersubtitles
+  examples: |
+    - User subtitles turn on
+    - Show user subtitles
+    - On my subtitles 
+    - Please on the subtitles of user 
+    - Enable my subtitles
+    - Turn on my subtitles
+
+- intent: hideusersubtitles
+  examples: |
+    - my subtitles turn off
+    - Hide my subtitles
+    - Turn off user subtitles
+    - Disable my subtitles
+    - Don't show my subtitles.
+    - off my subtitles
+    - hide user subtitles
+
+- intent: Showyoursubtitles
+  examples: |
+    - Your subtitles turn on
+    - Show your subtitles
+    - Display your subtitles 
+    - Enable your subtitles 
+    - Turn on your subtitles
+
+- intent: Hideyoursubtitles
+  examples: |
+    - Disable your subtiltes
+    - Don't show your subtitles
+    - Your subtitles turn off
+    - Hide your subtitles
+    - Turn off your subtitles
+
+- intent: Showquestion
+  examples: |
+    - Question display turn on
+    - Show question
+    - Display the questions
+    - Enable question view 
+    - Activate the question display 
+    - Start question presentation 
+    - Turn on the question display
+- intent: Hidequestion
+  examples: |
+    - Stop question Presentation 
+    - Disable question display
+    - Close question display
+    - Question display turn off
+    - Hide question
+    - Turn off the question display
+- intent: logout
+  examples: |
+    - Please logout from application
+    - Please logout
+    - Sign out please
+    - Please Signout 
+    - Sign off 
+    - logout
 # - intent:
 #   examples: |
 # - intent:

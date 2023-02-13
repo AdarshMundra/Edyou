@@ -43,6 +43,14 @@ intents:
   - Reducethescreen
   - showinfobox
   - Hideinfobox
+  - Showusersubtitles
+  - hideusersubtitles
+  - Showyoursubtitles
+  - Hideyoursubtitles
+  - Showquestion
+  - Hidequestion
+  - logout
+
 
 
 
@@ -74,6 +82,27 @@ responses:
 
   utter_Hideinfobox:
   - text: Hiding the info box
+
+  utter_Showusersubtitles:
+  - text: Sure, turning on your subtitles.
+
+  utter_hideusersubtitles:
+  - text: Sure, turning off your subtitles.
+
+  utter_Showyoursubtitles:
+  - text: Sure, turning on my subtitles.
+
+  utter_Hideyoursubtitles:
+  - text: Sure, turning off my subtitles.
+
+  utter_Showquestion:
+  - text: Showing the question.
+
+  utter_Hidequestion:
+  - text: Hiding the question.
+
+  utter_logout:
+  - text: Logging out, see you soon.
 
 
 

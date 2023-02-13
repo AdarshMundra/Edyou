@@ -201,6 +201,46 @@ stories:
   - intent: Hideinfobox
   - action: utter_Hideinfobox
 
+- story: Showusersubtitles
+  steps:
+  - intent: Showusersubtitles
+  - action: utter_Showusersubtitles
+
+- story: hideusersubtitles
+  steps:
+  - intent: hideusersubtitles
+  - action: utter_hideusersubtitles
+
+
+- story: Showyoursubtitles
+  steps:
+  - intent: Showyoursubtitles
+  - action: utter_Showyoursubtitles
+
+
+- story: Hideyoursubtitles
+  steps:
+  - intent: Hideyoursubtitles
+  - action: utter_Hideyoursubtitles
+
+
+- story: Showquestion
+  steps:
+  - intent: Showquestion
+  - action: utter_Showquestion
+
+
+- story: Hidequestion
+  steps:
+  - intent: Hidequestion
+  - action: utter_Hidequestion
+
+
+- story: logout
+  steps:
+  - intent: logout
+  - action: utter_logout
+
 - story: Whataretheproblemsintheeducationindustrytoday
   steps:
   - intent: Whataretheproblemsintheeducationindustrytoday
