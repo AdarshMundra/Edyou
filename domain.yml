@@ -75,13 +75,13 @@ responses:
   - text: Turning to full screen mode.
 
   utter_Reducethescreen:
-  - text: Changing to smaller view
+  - text: Changing to smaller view.
 
   utter_showinfobox:
-  - text: Here is the info box
+  - text: Here is the info box.
 
   utter_Hideinfobox:
-  - text: Hiding the info box
+  - text: Hiding the info box.
 
   utter_Showusersubtitles:
   - text: Sure, turning on your subtitles.

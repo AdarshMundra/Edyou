@@ -542,6 +542,8 @@ nlu:
     - Please show yourself to me.
     - Show yourself.
     - unhide avatar
+    - uncover yourself 
+    - Undrape Hannah
 
 - intent: Displayfullscreen
   examples: |
@@ -625,6 +627,9 @@ nlu:
     - Activate the question display 
     - Start question presentation 
     - Turn on the question display
+    - visible the question
+    - reveal the question
+
 - intent: Hidequestion
   examples: |
     - Stop question Presentation 
@@ -633,6 +638,7 @@ nlu:
     - Question display turn off
     - Hide question
     - Turn off the question display
+    - unreveal the question 
 - intent: logout
   examples: |
     - Please logout from application
@@ -641,6 +647,8 @@ nlu:
     - Please Signout 
     - Sign off 
     - logout
+    - Log off the application 
+    - Take me out off the application .
 # - intent:
 #   examples: |
 # - intent:
